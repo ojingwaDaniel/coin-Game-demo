@@ -17,6 +17,15 @@ window.addEventListener('keydown',function(evt){
   } else if(evt.key==='ArrowUp'){ 
     let top = position(player.style.top);
     player.style.top = `${top -50}px`;
+  } else if(evt.key === 'ArrowRight'){
+    let left = position(player.style.left)
+    player.style.left = `${left + 50}px`
+    player.style.transform = "scale(1,1)";
+
+  } else if(evt.key === 'ArrowLeft'){
+    let left = position(player.style.left)
+    player.style.left = `${left - 50}px`
+    player.style.transform = 'scale(-1,1)'
   }
    
    
