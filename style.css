@@ -3,5 +3,17 @@ img {
 	position: absolute;
 	top: 100px;
 	left: 100px;
-	b
+	
 }
+#coin{
+	width: 50px;
+}
+.dashboard{
+	display: flex;
+	width: 200px;
+	height: 50px;
+	font-size: 40px;
+	background-color: orange;
+	color: black;
+	border: 2px solid black;
+}	
