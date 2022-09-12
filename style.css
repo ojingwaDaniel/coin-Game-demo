@@ -17,4 +17,10 @@ img {
 	margin: 30px;
 	color: black;
 	border: 2px solid black;
+};
+body{
+
+	color: white;
+	background-image: url(images.jpeg);
+
 }
