@@ -15,7 +15,7 @@ let scoreboard = document.querySelector('span')
 let score = 0
 scoreboard.innerHTML = `score : ${score}`
 scoreboard.classList.add('dashboard')
-document.body.prepend(scoreboard)
+document.body.insertAdjacentElement('beforeend',scoreboard)
 const moveVertical = (side, number) => {
   let top = position(side.style.top);
   side.style.top = `${top + number}px`;
